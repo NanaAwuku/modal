@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: magenta;
+    height: 100vh;
+
+}
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    border-radius: 5px;
+    padding: 120px;
+}
+.banner h4{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 35px;
+}
+.banner button{
+    display: flex;
+    align-items: center;
+    justify-content: centers;
+    text-align: center;
+    margin-left: 25px;
+    padding: 10px 8px;
+}
+.modal-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    border-radius: 5px;
+    padding: 120px;
+}
+h3{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 35px; 
+}
+.close-btn{
+    position: absolute;
+    top: 11px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 2ren;
+}
+.modal-overlay{
+    display: none;
+}
+.modal-overlay.show{
+    display: block;
+}
